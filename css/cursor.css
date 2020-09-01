@@ -1,0 +1,23 @@
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  border: 2px solid #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.4s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  z-index: 1;
+  backdrop-filter: greyscale(); }
+
+.link-grow {
+  transform: scale(2);
+  background-color: #000; }
+
+.hovered-link {
+  color: #fff; }
+
+.back {
+  z-index: -10; }
